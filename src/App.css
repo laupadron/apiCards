@@ -1,0 +1,45 @@
+:root{
+ --background:#B4CDE6;
+ --strong-shadow:#628E90;
+ --light-shadow:#F5EFE6;
+}
+*{
+ border: 0;
+ 
+ box-sizing: border-box;
+}
+body{
+ font-family: 'Shadows Into Light', cursive;
+ background-color: #FFD384;
+}
+.container{
+ display: flex;
+ 
+ justify-content: center;
+}
+.card{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ 
+ width:fit-content;
+ background-color: var(--background);
+ box-shadow: 9px 9px 16px var(--strong-shadow), -9px -9px 16px var(--light-shadow);
+ padding: 0 10px 5px 10px;
+}
+button{
+ font-size: 30px;
+ margin-bottom: 10px;
+ color: var(--strong-shadow);
+ background-color: var(--light-shadow);
+ border-radius: 50%;
+ cursor: pointer;
+}
+button:active{
+ color: black
+}
+.card img{
+ border-radius: 50%;
+}
